@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;500;600;700&display=swap');
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-btn {
+    font-size: 17px;
+    font-weight: 600  ;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 18px 22px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.primary-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+}
+.primary-text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #727272;
+}
+/* Header Section
+---------------------- */
+Header {
+    padding: 40px 100px 35px;
+    background-color: #ff900e1a;
+}
+/* -------------- Start Nab Bar Section*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+}
+hr {
+    display: none;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+}
+.right-side li a {
+    color: #424242;
+}
+/* ------------------ Start Header Banner Section*/
+.banner {
+    text-align: center;
+}
+.banner-info {
+    margin: 80px 200px 50px;
+}
+.banner-info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+}
+/*   Main Section
+-------------------- */
+main {
+    margin: 85px 100px 0;
+}
+.facts, .experience-feature, .specialities, .sponsors-part, footer {
+    margin-top: 100px;
+}
+/*------------------ Start Quick Feature Section*/
+.quick-feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 60px;
+    padding: 0 25px;
+}
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+}
+.img-gallery img {
+    max-width: 100%;
+}
+.quick-feature-info .title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.orange {
+    color: #FF900E;
+}
+
+/* ------------------Start Experience Features Section*/
+.experience-feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 90px;
+}
+.experience-feature-info h2 {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+
+}
+.experience-feature-info > p {
+    margin-bottom: 30px;
+}
+
+.experience-feature-item {
+    max-width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.experience-feature-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.experience-feature-item p::after {
+    content: "...";
+}
+
+.experience-feature-poster {
+    position: relative;
+}
+.poster-img {
+    position: relative;
+    max-width: 100%;
+}
+.poster-badge {
+    position: absolute;
+    z-index: 1;
+    bottom: -10%;
+    left: -13%;
+    text-align: center;
+    max-width: 100%;
+    padding: 25px 22px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.poster-badge h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.poster-badge p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ---------------Start Specialities Section */
+.specialities {
+    text-align: center;
+}
+.specialities-info, .fact-info, .sponsors-info {
+    margin: 0 20%;
+}
+.cards-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+.specialities-card {
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    border-radius: 5px;
+}
+.specialities-card p {
+    font-size: 14px;
+    color: #727272;
+    margin: 5px 0 20px;
+}
+.specialities-card button {
+    font-size: 13px;
+    font-weight: 00;
+    color: #ffa845;
+    border: none;
+    padding: 7px 15px;
+    background: none;
+    border: 1px solid #ffa845;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.specialities-card img {
+    width: 55px;
+    background-color: #FF900E;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* ---------------Start Some Facts Section*/
+.facts {
+    text-align: center;
+}
+
+.fact-info h2, .sponsors-part h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.fact-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    background: linear-gradient(#e9bf7a1f 0 0) left / var(--fact-item,0px) no-repeat;
+    transition: 0.4s, background-position 0s;
+}
+.fact-item:hover {
+    --fact-item: 100%;
+    background-position: right;
+}
+
+.fact-item {
+    animation: orange 3s infinite;
+}
+@keyframes orange {
+  0%, 100% {
+    box-shadow: 0px 0px 5px 2px #ff6a0055, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+    50% {
+      box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); }
+}
+
+.fact-item h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 53px;
+    margin-top: 10px;
+}
+.fact-item p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ---------------Start Sponsors Section */
+.sponsors-part {
+    text-align: center;
+}
+.sponsor-logo-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsor-logo-part img {
+    filter: grayscale(100%);
+    max-width: 120px;
+}
+
+/* Footer Section
+------------------- */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #FFF4E7;
+}
+
+.hide {
+    display: none;
+}
+/*************************************
+           RESPONSIVE PART
+**************************************/
+@media screen and (max-width: 576px) {
+    header {
+        padding: 0;
+    }
+    nav {
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+    hr {
+        display: block;
+    }
+    .right-side {
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .primary-text {
+        line-height: 20px;
+    }
+    .primary-btn {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+    .facts, .experience-feature, .sponsors-part, footer {
+        margin-top: 50px;
+    }
+    .banner-info {
+        margin: 30px 10px 15px;
+    }
+    .banner-info h1 {
+        font-size: 35px;
+    }
+    .banner img {
+        padding: 0 20px 10px;
+    }
+    main {
+        margin: 35px 10px 0;
+    }
+    .quick-feature {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        gap: 30px;
+    }
+    .img-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .primary-title, .quick-feature-info .title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .experience-feature {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .poster-badge {
+        display: inline-block;
+        bottom: -70px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        padding: 10px 0;
+    }
+    .poster-badge h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .poster-badge p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .specialities {
+        margin-top: 80px;
+    }
+    .specialities-info, .fact-info, .sponsors-info {
+        margin: 0;
+    }
+    .cards-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fact-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .fact-item {
+        width: 100%;
+    }
+    .sponsor-logo-part {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 30px;
+    }
+    .cards-row, .fact-cards,.sponsor-logo-part {
+        margin-top: 30px;
+    }
+    footer {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+}
