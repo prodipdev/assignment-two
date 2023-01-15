@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;500;600;700&display=swap');
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -106,6 +105,10 @@ main {
 .quick-feature-info .title{
     font-size: 40px;
     margin-bottom: 15px;
+    color: #131313;
+}
+.gray {
+    color: #727272;
 }
 .orange {
     color: #FF900E;
