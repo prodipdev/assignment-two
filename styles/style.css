@@ -306,6 +306,9 @@ footer {
         flex-direction: column;
         padding: 10px 5px;
     }
+    h1 br {
+        display: none;
+    }
     hr {
         display: block;
     }
