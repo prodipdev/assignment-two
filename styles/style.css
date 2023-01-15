@@ -198,9 +198,9 @@ main {
     color: #727272;
     margin: 5px 0 20px;
 }
-.specialities-card button {
+.specialities-card a {
     font-size: 13px;
-    font-weight: 00;
+    text-decoration: none;
     color: #ffa845;
     border: none;
     padding: 7px 15px;
